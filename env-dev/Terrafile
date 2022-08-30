@@ -1,0 +1,7 @@
+# vpc:
+#     source:  "https://github.com/b49-clouddevops/tf-module-vpc.git"
+#     version: "dev-branch" : Once we are ready, we will change the branch
+
+vpc:
+    source:  "https://github.com/b49-clouddevops/tf-module-vpc.git"
+    version: "main"
