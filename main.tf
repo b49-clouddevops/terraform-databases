@@ -4,8 +4,8 @@
 
 module "mongodb" {
   source           = "./vendor/modules/mongodb"
-  # ENV              = var.ENV
-  # WORKSPATION_IP   = var.WORKSPATION_IP
+  ENV              = var.ENV
+  WORKSPATION_IP   = var.WORKSPATION_IP
 }
 
 module "redis" {
