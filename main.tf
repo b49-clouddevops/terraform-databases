@@ -12,6 +12,11 @@ module "redis" {
   ENV              = var.ENV
 }
 
+module "mysql" {
+  source           = "./vendor/modules/mysql"
+  ENV              = var.ENV
+}
+
 # You cannot parameterise the source section of the terraform module : Branc name cannot be parameterised. 
 # That's the challenge with terraform : Terrafile from coretech
 
