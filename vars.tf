@@ -1,2 +1,2 @@
 variable "ENV" {}
-variable 
+variable "WORKSPATION_IP" {}

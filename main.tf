@@ -5,6 +5,7 @@
 module "mongodb" {
   source           = "./vendor/modules/mongodb"
   ENV              = var.ENV
+  WORKSPATION_IP   = var.WORKSPATION_IP
 }
 
 module "redis" {
@@ -15,6 +16,7 @@ module "redis" {
 module "mysql" {
   source           = "./vendor/modules/mysql"
   ENV              = var.ENV
+  WORKSPATION_IP   = var.WORKSPATION_IP
 }
 
 # You cannot parameterise the source section of the terraform module : Branc name cannot be parameterised. 
