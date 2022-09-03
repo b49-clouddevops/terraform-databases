@@ -19,6 +19,13 @@ module "mysql" {
   WORKSPATION_IP   = var.WORKSPATION_IP
 }
 
+module "rabbitmq" {
+  source           = "./vendor/modules/rabbitmq"
+  ENV              = var.ENV
+  WORKSPATION_IP   = var.WORKSPATION_IP
+}
+
+
 # You cannot parameterise the source section of the terraform module : Branc name cannot be parameterised. 
 # That's the challenge with terraform : Terrafile from coretech
 
