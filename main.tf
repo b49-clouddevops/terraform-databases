@@ -23,5 +23,5 @@ module "mysql" {
 # That's the challenge with terraform : Terrafile from coretech
 
 output "redis" {
-    value = module.redis.redis 
+    value = module.redis.redis
 }
