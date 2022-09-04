@@ -17,6 +17,11 @@ module "mysql" {
   source           = "./vendor/modules/mysql"
   ENV              = var.ENV
   WORKSPATION_IP   = var.WORKSPATION_IP
+  RDS_MYSQL_PORT   = var.RDS_MYSQL_PORT 
+  RDS_MYSQL_CAPACITY = var.RDS_MYSQL_CAPACITY 
+  RDS_ENGINE_VERSION = var.RDS_ENGINE_VERSION 
+  RDS_INDTSNCE_TYPE  = var.RDS_INDTSNCE_TYPE
+
 }
 
 module "rabbitmq" {
