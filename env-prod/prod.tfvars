@@ -14,4 +14,4 @@ DOCDB_INSTACE_CLASS = "db.t3.medium"
 
 # RabbitMQ Values
 RABBITMQ_PORT = 5672 
-RABBITMQ_INSTANCE_TYPE = "t3.micro" 
+RABBITMQ_INSTANCE_TYPE = "t3.micro"  
