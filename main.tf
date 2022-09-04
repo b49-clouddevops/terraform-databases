@@ -14,8 +14,10 @@ module "mongodb" {
 module "redis" {
   source           = "./vendor/modules/redis"
   ENV              = var.ENV
-  ELASTICCCACHE_NODE_TYPE  = var.ELASTICCCACHE_NODE_TYPE 
-   
+  ELASTICCCACHE_NODE_TYPE      = var.ELASTICCCACHE_NODE_TYPE 
+  ELASTICCCACHE_NODE_COUNT     = var.ELASTICCCACHE_NODE_COUNT 
+  ELASTICCCACHE_PORT           = var.ELASTICCCACHE_PORT
+  ELASTICCCACHE_ENGINE_VERSION = var.ELASTICCCACHE_ENGINE_VERSION
 }
 
 module "mysql" {
