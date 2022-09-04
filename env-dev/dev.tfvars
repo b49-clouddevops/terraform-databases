@@ -6,3 +6,6 @@ RDS_MYSQL_PORT = 3306
 RDS_MYSQL_CAPACITY = 10 
 RDS_ENGINE_VERSION = "5.7"
 RDS_INDTSNCE_TYPE = "db.t3.micro"
+
+
+variable ""
