@@ -11,3 +11,7 @@ variable "RDS_INDTSNCE_TYPE" {}
 variable "DOCDB_INSTACE_CLASS" {}
 variable "DOCDB_INSTACE_COUNT" {} 
 variable "DOCDB_PORT" {}
+
+# RabbitMQ Variables
+variable "RABBITMQ_PORT" {}
+variable "RABBITMQ_INSTANCE_TYPE" {}

@@ -31,6 +31,9 @@ module "rabbitmq" {
   source           = "./vendor/modules/rabbitmq"
   ENV              = var.ENV
   WORKSPATION_IP   = var.WORKSPATION_IP
+  RABBITMQ_PORT    = var.RABBITMQ_PORT 
+  RABBITMQ_INSTANCE_TYPE = var.RABBITMQ_INSTANCE_TYPE
+
 }
 
 
