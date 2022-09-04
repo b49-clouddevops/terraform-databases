@@ -8,3 +8,7 @@ RDS_ENGINE_VERSION = "5.7"
 RDS_INDTSNCE_TYPE = "db.t3.micro"
 
 
+# DocDB Values 
+
+
+
