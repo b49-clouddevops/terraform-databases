@@ -40,15 +40,9 @@ module "rabbitmq" {
 
 }
 
-
 # You cannot parameterise the source section of the terraform module : Branc name cannot be parameterised. 
 # That's the challenge with terraform : Terrafile from coretech
 
 output "redis" {
     value = module.redis.redis
 }
-
-variable "RDS_MYSQL_PORT" {}
-variable "RDS_MYSQL_CAPACITY" {}
-variable "RDS_ENGINE_VERSION" {}
-variable "RDS_INDTSNCE_TYPE" {}
