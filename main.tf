@@ -6,6 +6,8 @@ module "mongodb" {
   source           = "./vendor/modules/mongodb"
   ENV              = var.ENV
   WORKSPATION_IP   = var.WORKSPATION_IP
+  DOCDB_PORT       = var.DOCDB_PORT 
+  
 }
 
 module "redis" {

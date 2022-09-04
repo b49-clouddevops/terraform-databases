@@ -15,5 +15,3 @@ DOCDB_INSTACE_COUNT = 1
 DOCDB_INSTACE_CLASS = "db.t3.medium"
 
 
-variable "DOCDB_INSTACE_CLASS" {}
-variable "DOCDB_INSTACE_COUNT" {} 
