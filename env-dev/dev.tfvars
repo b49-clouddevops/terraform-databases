@@ -1,2 +1,5 @@
 ENV = "dev"
 WORKSPATION_IP = "172.31.1.47/32"
+
+# RDS Values 
+RDS_MYSQL_PORT = 3306
