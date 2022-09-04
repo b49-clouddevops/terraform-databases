@@ -8,7 +8,3 @@ RDS_ENGINE_VERSION = "5.7"
 RDS_INDTSNCE_TYPE = "db.t3.micro"
 
 
-variable "RDS_MYSQL_PORT" {}
-variable "RDS_MYSQL_CAPACITY" {}
-variable "RDS_ENGINE_VERSION" {}
-variable "RDS_INDTSNCE_TYPE" {}
