@@ -32,3 +32,8 @@ module "rabbitmq" {
 output "redis" {
     value = module.redis.redis
 }
+
+variable "RDS_MYSQL_PORT" {}
+variable "RDS_MYSQL_CAPACITY" {}
+variable "RDS_ENGINE_VERSION" {}
+variable "RDS_INDTSNCE_TYPE" {}
