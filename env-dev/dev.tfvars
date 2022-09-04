@@ -9,9 +9,9 @@ RDS_INDTSNCE_TYPE = "db.t3.micro"
 
 
 # DocDB Values 
-
 DOCDB_PORT  =  27017 
 DOCDB_INSTACE_COUNT = 1
 DOCDB_INSTACE_CLASS = "db.t3.medium"
 
+# RabbitMQ 
 
