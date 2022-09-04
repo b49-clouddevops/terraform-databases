@@ -44,5 +44,6 @@ module "rabbitmq" {
 # That's the challenge with terraform : Terrafile from coretech
 
 output "redis" {
-    value = module.redis.redis
+    value = module.mongodb.data 
 }
+
