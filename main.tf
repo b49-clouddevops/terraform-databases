@@ -7,7 +7,8 @@ module "mongodb" {
   ENV              = var.ENV
   WORKSPATION_IP   = var.WORKSPATION_IP
   DOCDB_PORT       = var.DOCDB_PORT 
-  
+  DOCDB_INSTACE_CLASS = var.DOCDB_INSTACE_CLASS
+  DOCDB_INSTACE_COUNT = var.DOCDB_INSTACE_COUNT
 }
 
 module "redis" {
