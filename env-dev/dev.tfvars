@@ -18,4 +18,6 @@ RABBITMQ_PORT = 5672
 RABBITMQ_INSTANCE_TYPE = "t3.micro" 
 
 # Elastic Cache Values 
+ELASTICCCACHE_NODE_TYPE = "cache.t3.small" 
+ELASTICCCACHE_NODE_COUNT = 1 
 
