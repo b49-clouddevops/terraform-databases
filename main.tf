@@ -14,6 +14,8 @@ module "mongodb" {
 module "redis" {
   source           = "./vendor/modules/redis"
   ENV              = var.ENV
+  ELASTICCCACHE_NODE_TYPE  = var.ELASTICCCACHE_NODE_TYPE 
+   
 }
 
 module "mysql" {
